@@ -1,0 +1,4 @@
+module CHandshake {
+    umbrella "/Users/student/Desktop/LabLink/Sources/CHandshake/include"
+    export *
+}

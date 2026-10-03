@@ -1,0 +1,1137 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.xctest/Contents/MacOS/LabLinkPackageTests",
+      "packagePath" : "/Users/student/Desktop/LabLink",
+      "productName" : "LabLinkPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.LabLinkCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/sources",
+      "importPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/CaptureSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/ChipDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/DiscoveryService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/HandshakeManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkDaemon.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaReceiver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaStreamer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/NetworkMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/CHandshake.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LabLinkCore",
+      "moduleOutputPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkCore.swiftmodule",
+      "objects" : [
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.swift.o",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+        "-module-cache-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/include/LabLinkCore-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "lablink"
+      ],
+      "outputFileMapPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/CaptureSession.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/ChipDetector.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/DiscoveryService.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/HandshakeManager.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkDaemon.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkMenu.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/Logger.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaReceiver.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaStreamer.swift",
+        "/Users/student/Desktop/LabLink/Sources/LabLinkCore/NetworkMonitor.swift"
+      ],
+      "tempsPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LabLinkD-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/sources",
+      "importPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkD/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "LabLinkD",
+      "moduleOutputPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkD.swiftmodule",
+      "objects" : [
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+        "-module-cache-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "LabLinkD_main",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "lablink"
+      ],
+      "outputFileMapPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkD.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/student/Desktop/LabLink/Sources/LabLinkD/main.swift"
+      ],
+      "tempsPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LabLinkPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/sources",
+      "importPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LabLinkPackageTests",
+      "moduleOutputPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+        "-module-cache-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/include/LabLinkPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "lablink"
+      ],
+      "outputFileMapPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LabLinkTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/sources",
+      "importPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Tests/LabLinkTests/LabLinkTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LabLinkTests",
+      "moduleOutputPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkTests.swiftmodule",
+      "objects" : [
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/LabLinkTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+        "-module-cache-path",
+        "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "lablink"
+      ],
+      "outputFileMapPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/LabLinkTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules/LabLinkTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/student/Desktop/LabLink/Tests/LabLinkTests/LabLinkTests.swift"
+      ],
+      "tempsPath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "LabLinkCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LabLinkCore",
+      "-package-name",
+      "lablink",
+      "-c",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/CaptureSession.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/ChipDetector.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/DiscoveryService.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/HandshakeManager.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkDaemon.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkMenu.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/Logger.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaReceiver.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaStreamer.swift",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkCore/NetworkMonitor.swift",
+      "-I",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+      "-module-cache-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/include/LabLinkCore-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "lablink",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LabLinkD" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LabLinkD",
+      "-package-name",
+      "lablink",
+      "-c",
+      "/Users/student/Desktop/LabLink/Sources/LabLinkD/main.swift",
+      "-I",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+      "-module-cache-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "LabLinkD_main",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "lablink",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LabLinkPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LabLinkPackageTests",
+      "-package-name",
+      "lablink",
+      "-c",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+      "-module-cache-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/include/LabLinkPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "lablink",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LabLinkTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LabLinkTests",
+      "-package-name",
+      "lablink",
+      "-c",
+      "/Users/student/Desktop/LabLink/Tests/LabLinkTests/LabLinkTests.swift",
+      "-I",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/student/Desktop/LabLink/Sources/CHandshake/include",
+      "-module-cache-path",
+      "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "lablink",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CHandshake" : [
+
+    ],
+    "LabLinkCore" : [
+      "CHandshake"
+    ],
+    "LabLinkD" : [
+      "LabLinkCore",
+      "CHandshake"
+    ],
+    "LabLinkPackageTests" : [
+      "LabLinkTests",
+      "LabLinkCore",
+      "CHandshake"
+    ],
+    "LabLinkTests" : [
+      "LabLinkCore",
+      "CHandshake"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/CaptureSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/ChipDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/DiscoveryService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/HandshakeManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkDaemon.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaReceiver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaStreamer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkCore/NetworkMonitor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/sources"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD-entitlement.plist"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Sources/LabLinkD/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/sources"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/CHandshake.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkD.product/Objects.LinkFileList"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/sources"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/CHandshake.build/CHandshake.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/LabLinkTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/student/Desktop/LabLink/Tests/LabLinkTests/LabLinkTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkTests.build/sources"
+    },
+    "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

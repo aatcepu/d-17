@@ -1,0 +1,15 @@
+.build/
+.build_ipad/
+.derived/
+build/
+**/DerivedData/
+**/.build/
+**/.build_ipad/
+**/.swiftpm/
+*.xcactivitylog
+LogStoreManifest.plist
+.DS_Store
+*.txt
+*.log
+.home/
+*.xcresult

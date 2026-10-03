@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 f96deff4fc0d7ea9b35cb8cae5fcffc4b0eb650d Student <general@CVRCMACPC17.(none)> 1787727727 -0700	clone: from https://github.com/Subhansh-dev/ssc
+f96deff4fc0d7ea9b35cb8cae5fcffc4b0eb650d 636747d21197f63ca1c5386bc63754846bfe6dec opencode <opencode@local> 1787734399 -0700	commit: Add Terms & Conditions panel and fix AATCe boot text
+636747d21197f63ca1c5386bc63754846bfe6dec 636747d21197f63ca1c5386bc63754846bfe6dec opencode <opencode@local> 1787734404 -0700	checkout: moving from main to feature/terms-panel

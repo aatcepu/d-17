@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/master.swiftdeps"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/CaptureSession.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/CaptureSession.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/ChipDetector.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/ChipDetector.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/DiscoveryService.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/DiscoveryService.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/HandshakeManager.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/HandshakeManager.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkDaemon.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkDaemon.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/LabLinkMenu.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/LabLinkMenu.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/Logger.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/Logger.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaReceiver.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaReceiver.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/MediaStreamer.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/MediaStreamer.dia"
+  },
+  "/Users/student/Desktop/LabLink/Sources/LabLinkCore/NetworkMonitor.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/NetworkMonitor.dia"
+  }
+}

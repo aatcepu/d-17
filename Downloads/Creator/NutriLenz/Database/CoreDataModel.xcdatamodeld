@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xcdatamodel type="com.apple.IDECoreDataModeler.DataModelType" version="1.0" documentVersion="1.0" lastSavedToolsVersion="14490">
+    <modelPropertyVersionIdentifier />
+    <attributedStringAttributes />
+    <entity name="MealEntity" representedClassName="Meal" syncable="YES">
+        <attribute name="id" valueClass="NSUUID" optional="YES" attributeType="UUID" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="name" valueClass="NSString" optional="YES" attributeType="String" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="date" valueClass="NSDate" optional="YES" attributeType="Date" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="imageData" valueClass="NSData" optional="YES" attributeType="Binary" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="totalCalories" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="totalProtein" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="totalCarbs" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="totalFat" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="mealScore" valueClass="NSNumber" optional="YES" attributeType="Integer 16" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <relationship name="foods" valueClass="NSSet" optional="YES" mutableDeleteRule="NullifyDeleteRule" toMany="YES" deleteRule="NullifyDeleteRule" destinationEntity="FoodItemEntity" inverseName="meal" inverseEntity="FoodItemEntity" syncable="YES"/>
+    </entity>
+    <entity name="FoodItemEntity" representedClassName="FoodItem" syncable="YES">
+        <attribute name="id" valueClass="NSUUID" optional="YES" attributeType="UUID" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="name" valueClass="NSString" optional="YES" attributeType="String" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="confidence" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="calories" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="protein" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="carbs" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="fat" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="fiber" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="sugar" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="portionWeight" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <attribute name="portionMultiplier" valueClass="NSNumber" optional="YES" attributeType="Double" defaultValue="&lt;null&gt;" syncable="YES"/>
+        <relationship name="meal" valueClass="NSManagedObject" optional="YES" deleteRule="NullifyDeleteRule" toMany="NO" destinationEntity="MealEntity" inverseName="foods" inverseEntity="MealEntity" syncable="YES"/>
+    </entity>
+    <displayOptions keyingBehavior="0" propertyAccessControl="0" classNameTemplate="NSManagedObject"/>
+</xcdatamodel>

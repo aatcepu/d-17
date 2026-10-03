@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/master.swiftdeps"
+  },
+  "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.d",
+    "object": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkPackageTests.build/runner.dia"
+  }
+}

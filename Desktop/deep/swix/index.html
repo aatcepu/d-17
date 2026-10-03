@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#FFF8F2" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="Swift Coding Club at Parul University — the student-run iOS studio inside the Apple Innovation Lab. Learn Swift, ship real apps, join free weekly sessions." />
+    <meta property="og:title" content="Swift Coding Club · Parul University" />
+    <meta property="og:description" content="Learn Swift. Ship real apps. From Parul to the App Store." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23F05138'/%3E%3Cpath d='M46 44c-2.5 3-8 4-14 2-8-3-15-10-19-18 5 5 11 9 16 11-6-6-11-13-13-19 6 7 13 13 20 17 1-6-1-12-4-17 7 5 12 12 13 20 0 2 0 4-1 6 3 2 5 6 2 10z' fill='%23fff'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
+    <title>Swift Coding Club · Parul University</title>
+    <style>
+      html, body { margin: 0; padding: 0; }
+      body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #fff8f2; color: #0b0b0c; overflow-x: clip; }
+      #splash-static { position: fixed; inset: 0; z-index: 200; display: grid; place-content: center; text-align: center; color: #0b0b0c; background: radial-gradient(ellipse at 50% 36%, #ffd3bc, #fff0e4 38%, #fffaf5 75%); }
+      .static-mark { width: 64px; height: 64px; margin: 0 auto 26px; display: grid; place-items: center; border: 1px solid #ffd3a7; background: linear-gradient(135deg, #ffb678, #f05138); box-shadow: 8px 8px 0 #8f3023, 0 0 50px #f0513844; transform: perspective(500px) rotateX(-16deg) rotateY(-24deg); font: bold 22px monospace; }
+      #splash-static p { font-size: 20px; letter-spacing: -0.04em; }
+      #splash-static small { color: #6b5f5a; font: 10px monospace; letter-spacing: 0.16em; }
+    </style>
+  </head>
+  <body>
+    <div id="splash-static" role="status">
+      <div class="static-mark" aria-hidden="true">{ }</div>
+      <p>Swift Coding Club</p>
+      <small id="boot-fallback-message">PREPARING YOUR WORKSPACE</small>
+      <noscript><p>Enable JavaScript to explore the club website.</p></noscript>
+    </div>
+    <div id="root"></div>
+    <script>
+      window.setTimeout(function () {
+        var splash = document.getElementById('splash-static');
+        if (!splash) return;
+        var message = document.getElementById('boot-fallback-message');
+        if (message) message.textContent = 'Taking longer than expected. Please reload to try again.';
+      }, 10000);
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "originHash" : "0e63b8a9941b70ad111d064adc857f379fc04ec7cc5f785584aba282dfea5023",
+  "pins" : [
+    {
+      "identity" : "countrypickerview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kizitonwose/CountryPickerView.git",
+      "state" : {
+        "revision" : "6ecf22145d577411fb97c8c964df0fb5886f035f",
+        "version" : "3.3.0"
+      }
+    },
+    {
+      "identity" : "iphonekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shreyassuresh/iPhoneKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "08803317ad50e07160b1c8332cc432b835a18b03"
+      }
+    }
+  ],
+  "version" : 3
+}

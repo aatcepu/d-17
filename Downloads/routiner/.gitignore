@@ -1,0 +1,18 @@
+# Xcode per-user state — window layout, open tabs, breakpoints.
+# Regenerates automatically. Never useful to anyone else, and it creates
+# noisy conflicts the moment two people open the same project.
+xcuserdata/
+*.xcuserstate
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
+.build/

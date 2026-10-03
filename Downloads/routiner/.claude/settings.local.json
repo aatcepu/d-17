@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -version)",
+      "Bash(xcodebuild -showsdks)",
+      "Bash(xcode-select -p)",
+      "Bash(xcrun devicectl *)",
+      "Bash(sw_vers)",
+      "Bash(xcrun simctl *)",
+      "Bash(xcodebuild -project routiner.xcodeproj -scheme routiner -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.1' -configuration Debug build)",
+      "Bash(/usr/libexec/PlistBuddy -c \"Print :CFBundleIdentifier\" \"/Users/teachers/Library/Developer/Xcode/DerivedData/routiner-fjxuseafbphxhtgxwbxmilzqxhnn/Build/Products/Debug-iphonesimulator/routiner.app/Info.plist\")",
+      "Bash(grep -E \"^\\\\.git$|gitignore\")"
+    ]
+  }
+}

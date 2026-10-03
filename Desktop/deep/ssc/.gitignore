@@ -1,0 +1,18 @@
+# Secrets / local config
+config.js
+.env
+.env.local
+.env*.local
+
+# Vercel link state (local only)
+.vercel
+
+# Dependencies / build
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+.vercel

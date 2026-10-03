@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01835DF6CD29AF5266FCE343 /* NavigationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E3EF938030F3AA4D99AEC /* NavigationAttributes.swift */; };
+		09829EC09E9BC929B76FD961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E430799601186F4532A30A /* ContentView.swift */; };
+		195D0CAA1A7B79A442311EB2 /* RouteComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2378C8761BFFDC52D7E245E /* RouteComparisonView.swift */; };
+		1BDD3C3FAF88DDBC57DC1DEB /* NavigationLiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E71A217E7C92C4956565C /* NavigationLiveActivityManager.swift */; };
+		1F89531250E9CBF638FC09B5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F35EDCF38F6AEC86B54C72 /* Location.swift */; };
+		2AFF6FE4F442391B4421DAF0 /* OfflineCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7674BF9EA4BA6677C8FBED /* OfflineCities.swift */; };
+		3028078280EABA6F23D90503 /* LiveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1059097B461978BDFB4A125 /* LiveActivityWidget.swift */; };
+		306603A7DD87479195236055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0085AB2D62DFF97A143F553A /* Foundation.framework */; };
+		32F70C24C70B74F9DBCEC3FA /* RideShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A840CA82DCD9F967A58A7918 /* RideShareService.swift */; };
+		3694D3C6B2C25A2197752160 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056B9105464A1E21A009296 /* LocationDetailView.swift */; };
+		44BFA0C75B09F1454E24469C /* DynamicIslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B006C7380285440B220F61 /* DynamicIslandView.swift */; };
+		527B098280F24720112617BC /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B36D061BE20987EB175EC6 /* BottomSheetView.swift */; };
+		55C7E84BF10E331029FBDD36 /* KompassNavigationWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F6C4A7AB187568DAE5BC5F3E /* KompassNavigationWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		586EAC590D4E8A308B873BBE /* TransitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EABD70EE5BF7B789E4BD2 /* TransitDetailView.swift */; };
+		5F8232B695951E340D8C08D2 /* SearchCompleter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7B791B9833E1819AA34BE /* SearchCompleter.swift */; };
+		69B51E5F080CD5C1CA8FCDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1625E125A85A9FFC070D0AB /* Assets.xcassets */; };
+		6ABFB0A017B7BF1FF1A03146 /* TransportModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C958812E811B94EF2DF873E /* TransportModeView.swift */; };
+		6BEF8CC8B7AEA3F096903866 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F0482388C2381C1CFEDBD0 /* NetworkManager.swift */; };
+		70F9822F8832B6D76CA51E6C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E243497FA8E1F1F0EEB40B3 /* MapView.swift */; };
+		723C9303D75ABEF3B6249D65 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB21D71CF65EAE269597532 /* PlaceCategory.swift */; };
+		7A0CEDA7A7C96E5BCE71FA12 /* RouteAgentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD65A10D004A67EC2E92 /* RouteAgentCoordinator.swift */; };
+		92FD06044DD1A72CA8D642D9 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605EC61285CEA5526F506581 /* MyApp.swift */; };
+		985BBE6972E44A165869F27C /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D2E25623B538E70C04BC4 /* CompassView.swift */; };
+		A75458BFD2E5C6D1ACB2DA63 /* KompassNavigationWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4AF654D7AF8B7E585A18D5 /* KompassNavigationWidgetBundle.swift */; };
+		B132535D021E8F46B94F17CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0085AB2D62DFF97A143F553A /* Foundation.framework */; };
+		C442CA138FE1E2536E6A3CBF /* NavigationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E3EF938030F3AA4D99AEC /* NavigationAttributes.swift */; };
+		D57D984168A213D365ED1A14 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD940E7596CE273DCAD2297C /* LocationManager.swift */; };
+		E84FE1209D3B4E0566653AA1 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5E3D27B25B7140DF47EC9 /* SearchResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F62055EA83B44BEF6BB3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E7CE987D8FF4C9EB1A4AAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D3E5AB61D366D8F71F58A5;
+			remoteInfo = KompassNavigationWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8244A4961A6F9B619F908F07 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55C7E84BF10E331029FBDD36 /* KompassNavigationWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0085AB2D62DFF97A143F553A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		020D2E25623B538E70C04BC4 /* CompassView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		0A29BAB7984F55EF2A9D5851 /* Kompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F0482388C2381C1CFEDBD0 /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		24F35EDCF38F6AEC86B54C72 /* Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3D8E3EF938030F3AA4D99AEC /* NavigationAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationAttributes.swift; sourceTree = "<group>"; };
+		4056B9105464A1E21A009296 /* LocationDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		4C958812E811B94EF2DF873E /* TransportModeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransportModeView.swift; sourceTree = "<group>"; };
+		53E430799601186F4532A30A /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54B36D061BE20987EB175EC6 /* BottomSheetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		605EC61285CEA5526F506581 /* MyApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		63D035C1261CD991993B1BE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Widget/Info.plist; sourceTree = "<group>"; };
+		7A7674BF9EA4BA6677C8FBED /* OfflineCities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OfflineCities.swift; sourceTree = "<group>"; };
+		7F9E71A217E7C92C4956565C /* NavigationLiveActivityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationLiveActivityManager.swift; sourceTree = "<group>"; };
+		8E243497FA8E1F1F0EEB40B3 /* MapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8EB21D71CF65EAE269597532 /* PlaceCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
+		9A3EABD70EE5BF7B789E4BD2 /* TransitDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitDetailView.swift; sourceTree = "<group>"; };
+		A840CA82DCD9F967A58A7918 /* RideShareService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RideShareService.swift; sourceTree = "<group>"; };
+		B1059097B461978BDFB4A125 /* LiveActivityWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveActivityWidget.swift; sourceTree = "<group>"; };
+		C1625E125A85A9FFC070D0AB /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2556719B172979FF2C4EF32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
+		DAC7B791B9833E1819AA34BE /* SearchCompleter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchCompleter.swift; sourceTree = "<group>"; };
+		DD940E7596CE273DCAD2297C /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E2378C8761BFFDC52D7E245E /* RouteComparisonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteComparisonView.swift; sourceTree = "<group>"; };
+		E7B006C7380285440B220F61 /* DynamicIslandView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DynamicIslandView.swift; sourceTree = "<group>"; };
+		EA4AF654D7AF8B7E585A18D5 /* KompassNavigationWidgetBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KompassNavigationWidgetBundle.swift; sourceTree = "<group>"; };
+		EAA5E3D27B25B7140DF47EC9 /* SearchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		F6C4A7AB187568DAE5BC5F3E /* KompassNavigationWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KompassNavigationWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE9DD65A10D004A67EC2E92 /* RouteAgentCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteAgentCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14912333F255DC91B8D66053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306603A7DD87479195236055 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E3AFB40D6646F641ADEE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B132535D021E8F46B94F17CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38701D4F139B0B5390715C6D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				EA4AF654D7AF8B7E585A18D5 /* KompassNavigationWidgetBundle.swift */,
+				B1059097B461978BDFB4A125 /* LiveActivityWidget.swift */,
+			);
+			name = Widget;
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		4024E68B413DD48AADC78E6B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0085AB2D62DFF97A143F553A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4798A04AE98A90F5217C6C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4024E68B413DD48AADC78E6B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C3DF7BE0CE1276720E2EC25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24F35EDCF38F6AEC86B54C72 /* Location.swift */,
+				3D8E3EF938030F3AA4D99AEC /* NavigationAttributes.swift */,
+				7A7674BF9EA4BA6677C8FBED /* OfflineCities.swift */,
+				8EB21D71CF65EAE269597532 /* PlaceCategory.swift */,
+				EAA5E3D27B25B7140DF47EC9 /* SearchResult.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		763E00A4B31E90EAF4982CE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				020D2E25623B538E70C04BC4 /* CompassView.swift */,
+				8E243497FA8E1F1F0EEB40B3 /* MapView.swift */,
+				54B36D061BE20987EB175EC6 /* BottomSheetView.swift */,
+				E7B006C7380285440B220F61 /* DynamicIslandView.swift */,
+				4056B9105464A1E21A009296 /* LocationDetailView.swift */,
+				9A3EABD70EE5BF7B789E4BD2 /* TransitDetailView.swift */,
+				4C958812E811B94EF2DF873E /* TransportModeView.swift */,
+				E2378C8761BFFDC52D7E245E /* RouteComparisonView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		779FC4F0E47A7D490F21CFCA /* XcodeSupport */ = {
+			isa = PBXGroup;
+			children = (
+				C2556719B172979FF2C4EF32 /* Info.plist */,
+				63D035C1261CD991993B1BE2 /* Info.plist */,
+			);
+			name = XcodeSupport;
+			path = XcodeSupport;
+			sourceTree = "<group>";
+		};
+		8E6017E7A160755037C044DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A29BAB7984F55EF2A9D5851 /* Kompass.app */,
+				F6C4A7AB187568DAE5BC5F3E /* KompassNavigationWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C60B733FA917AAD3DF1429 /* kompass.swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				EA39EED11380949042C46E70 /* App */,
+				763E00A4B31E90EAF4982CE5 /* Views */,
+				4C3DF7BE0CE1276720E2EC25 /* Models */,
+				FC3EB5E55F40805A606AEBEB /* Services */,
+				38701D4F139B0B5390715C6D /* Widget */,
+				C1625E125A85A9FFC070D0AB /* Assets.xcassets */,
+			);
+			name = kompass.swiftpm;
+			path = kompass.swiftpm;
+			sourceTree = "<group>";
+		};
+		E8B33B761966DDC2A5D2C564 = {
+			isa = PBXGroup;
+			children = (
+				8E6017E7A160755037C044DD /* Products */,
+				4798A04AE98A90F5217C6C15 /* Frameworks */,
+				D7C60B733FA917AAD3DF1429 /* kompass.swiftpm */,
+				779FC4F0E47A7D490F21CFCA /* XcodeSupport */,
+			);
+			sourceTree = "<group>";
+		};
+		EA39EED11380949042C46E70 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				605EC61285CEA5526F506581 /* MyApp.swift */,
+				53E430799601186F4532A30A /* ContentView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC3EB5E55F40805A606AEBEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD940E7596CE273DCAD2297C /* LocationManager.swift */,
+				7F9E71A217E7C92C4956565C /* NavigationLiveActivityManager.swift */,
+				13F0482388C2381C1CFEDBD0 /* NetworkManager.swift */,
+				A840CA82DCD9F967A58A7918 /* RideShareService.swift */,
+				FAE9DD65A10D004A67EC2E92 /* RouteAgentCoordinator.swift */,
+				DAC7B791B9833E1819AA34BE /* SearchCompleter.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D3E5AB61D366D8F71F58A5 /* KompassNavigationWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B44ADEE06E2439A378626D4 /* Build configuration list for PBXNativeTarget "KompassNavigationWidgetExtension" */;
+			buildPhases = (
+				A4E9036B89B2DCF7F6C53787 /* Sources */,
+				14912333F255DC91B8D66053 /* Frameworks */,
+				5307EB3353623D698EBDE7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KompassNavigationWidgetExtension;
+			productName = KompassNavigationWidgetExtension;
+			productReference = F6C4A7AB187568DAE5BC5F3E /* KompassNavigationWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4648E5BEFC59E5FA0BCA3280 /* Kompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D5E81C5E36C535FF693120 /* Build configuration list for PBXNativeTarget "Kompass" */;
+			buildPhases = (
+				F0CB7DA7A93660C8167D21E0 /* Sources */,
+				24E3AFB40D6646F641ADEE81 /* Frameworks */,
+				E5B796D1E2FB2D4BA3FD7A45 /* Resources */,
+				8244A4961A6F9B619F908F07 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B50757720C6977E959E940E /* PBXTargetDependency */,
+			);
+			name = Kompass;
+			productName = Kompass;
+			productReference = 0A29BAB7984F55EF2A9D5851 /* Kompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E7CE987D8FF4C9EB1A4AAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					33D3E5AB61D366D8F71F58A5 = {
+						DevelopmentTeam = W4CGNMV2HK;
+						ProvisioningStyle = Automatic;
+					};
+					4648E5BEFC59E5FA0BCA3280 = {
+						DevelopmentTeam = W4CGNMV2HK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22A77AD27A52E55D40031D08 /* Build configuration list for PBXProject "Kompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8B33B761966DDC2A5D2C564;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8E6017E7A160755037C044DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4648E5BEFC59E5FA0BCA3280 /* Kompass */,
+				33D3E5AB61D366D8F71F58A5 /* KompassNavigationWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5307EB3353623D698EBDE7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B796D1E2FB2D4BA3FD7A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B51E5F080CD5C1CA8FCDCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E9036B89B2DCF7F6C53787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75458BFD2E5C6D1ACB2DA63 /* KompassNavigationWidgetBundle.swift in Sources */,
+				3028078280EABA6F23D90503 /* LiveActivityWidget.swift in Sources */,
+				01835DF6CD29AF5266FCE343 /* NavigationAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CB7DA7A93660C8167D21E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FD06044DD1A72CA8D642D9 /* MyApp.swift in Sources */,
+				09829EC09E9BC929B76FD961 /* ContentView.swift in Sources */,
+				985BBE6972E44A165869F27C /* CompassView.swift in Sources */,
+				70F9822F8832B6D76CA51E6C /* MapView.swift in Sources */,
+				527B098280F24720112617BC /* BottomSheetView.swift in Sources */,
+				44BFA0C75B09F1454E24469C /* DynamicIslandView.swift in Sources */,
+				3694D3C6B2C25A2197752160 /* LocationDetailView.swift in Sources */,
+				586EAC590D4E8A308B873BBE /* TransitDetailView.swift in Sources */,
+				6ABFB0A017B7BF1FF1A03146 /* TransportModeView.swift in Sources */,
+				195D0CAA1A7B79A442311EB2 /* RouteComparisonView.swift in Sources */,
+				1F89531250E9CBF638FC09B5 /* Location.swift in Sources */,
+				C442CA138FE1E2536E6A3CBF /* NavigationAttributes.swift in Sources */,
+				2AFF6FE4F442391B4421DAF0 /* OfflineCities.swift in Sources */,
+				723C9303D75ABEF3B6249D65 /* PlaceCategory.swift in Sources */,
+				E84FE1209D3B4E0566653AA1 /* SearchResult.swift in Sources */,
+				D57D984168A213D365ED1A14 /* LocationManager.swift in Sources */,
+				1BDD3C3FAF88DDBC57DC1DEB /* NavigationLiveActivityManager.swift in Sources */,
+				6BEF8CC8B7AEA3F096903866 /* NetworkManager.swift in Sources */,
+				32F70C24C70B74F9DBCEC3FA /* RideShareService.swift in Sources */,
+				7A0CEDA7A7C96E5BCE71FA12 /* RouteAgentCoordinator.swift in Sources */,
+				5F8232B695951E340D8C08D2 /* SearchCompleter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B50757720C6977E959E940E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KompassNavigationWidgetExtension;
+			target = 33D3E5AB61D366D8F71F58A5 /* KompassNavigationWidgetExtension */;
+			targetProxy = 20F62055EA83B44BEF6BB3BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0338A6ADD373065FCE0F7D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W4CGNMV2HK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		05F8D22A8D3D7DAE7E8B6AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CGNMV2HK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XcodeSupport/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadishah.kompass;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44AD7F9C0CCBAD340C1AC0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CGNMV2HK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XcodeSupport/Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadishah.kompass.navigation-widget";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B79690EA5FD202845CECF826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CGNMV2HK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XcodeSupport/Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadishah.kompass.navigation-widget";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FBEFC59AA1858BE696B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CGNMV2HK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XcodeSupport/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadishah.kompass;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC056246EAB9F84F9AD8052B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W4CGNMV2HK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D5E81C5E36C535FF693120 /* Build configuration list for PBXNativeTarget "Kompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FBEFC59AA1858BE696B060 /* Release */,
+				05F8D22A8D3D7DAE7E8B6AA9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A77AD27A52E55D40031D08 /* Build configuration list for PBXProject "Kompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC056246EAB9F84F9AD8052B /* Debug */,
+				0338A6ADD373065FCE0F7D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B44ADEE06E2439A378626D4 /* Build configuration list for PBXNativeTarget "KompassNavigationWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79690EA5FD202845CECF826 /* Release */,
+				44AD7F9C0CCBAD340C1AC0CE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E7CE987D8FF4C9EB1A4AAF /* Project object */;
+}

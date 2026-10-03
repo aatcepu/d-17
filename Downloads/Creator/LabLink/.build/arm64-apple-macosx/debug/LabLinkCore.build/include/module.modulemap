@@ -1,0 +1,3 @@
+module LabLinkCore {
+    header "/Users/student/Desktop/LabLink/.build/arm64-apple-macosx/debug/LabLinkCore.build/include/LabLinkCore-Swift.h"
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swift Student Challenge 2027 | Parul University</title>
+  <meta name="description" content="Register for the Swift Student Challenge 2027 at Parul University. Build with Swift and represent Parul University on the global stage.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Swift Student Challenge 2027 | Parul University">
+  <meta property="og:description" content="Build with Swift and represent Parul University at the global stage. Register now for the Swift Student Challenge 2027.">
+  <meta property="og:url" content="https://ssc-pu.vercel.app">
+  <meta property="og:site_name" content="Swift Student Challenge 2027">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Swift Student Challenge 2027 | Parul University">
+  <meta name="twitter:description" content="Build with Swift and represent Parul University at the global stage. Register now for the Swift Student Challenge 2027.">
+  <link rel="icon" href="assets/swift-logo.svg">
+  <link rel="apple-touch-icon" href="assets/swift-logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=11">
+</head>
+<body>
+
+  <div id="boot" class="boot" aria-hidden="true">
+    <div class="boot-logo-wrap">
+      <img src="assets/swift-logo.svg" alt="Swift" class="boot-logo">
+    </div>
+    <p class="boot-text"><span>Swift</span> <span>Student</span> <span>Challenge</span></p>
+    <p class="boot-sub">AATCe · Parul University</p>
+  </div>
+
+  <div class="grain"></div>
+
+  <!-- SVG Filters for Liquid Glass Refraction -->
+  <svg class="svg-filters" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="container-glass" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="contrast"/>
+        <feComposite in="contrast" in2="SourceGraphic" operator="in"/>
+      </filter>
+      <filter id="displacement" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3" seed="2" result="noise"/>
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="blobs">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <canvas id="shaderBg" class="shader-bg"></canvas>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="assets/parul-logo.svg" alt="Parul University" class="parul-logo">
+      <span class="nav-divider" aria-hidden="true"></span>
+      <img src="assets/swift-logo.svg" alt="Swift" class="swift-logo">
+      <span class="nav-divider" aria-hidden="true"></span>
+      <img src="https://appledge.vercel.app/images/aatce_logo.svg" alt="AATCe" class="aatce-logo">
+      <span class="nav-divider" aria-hidden="true"></span>
+      <img src="assets/vthub_logo.svg" alt="VT Hub" class="vthub-logo">
+    </div>
+  </header>
+
+  <section id="heroSection" class="hero-section">
+    <div class="hero-inner" data-tilt>
+      <svg class="hero-apple" viewBox="0 0 128 128" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <!-- Polished chrome base — ember/gold banding for a liquid-metal read -->
+          <linearGradient id="swiftGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#2a0603"/>
+            <stop offset="12%" stop-color="#7a1c06"/>
+            <stop offset="26%" stop-color="#e8741f"/>
+            <stop offset="37%" stop-color="#fff3d8"/>
+            <stop offset="47%" stop-color="#f2bf73"/>
+            <stop offset="60%" stop-color="#8f2809"/>
+            <stop offset="73%" stop-color="#e8741f"/>
+            <stop offset="85%" stop-color="#fff3d8"/>
+            <stop offset="100%" stop-color="#2a0603"/>
+            <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 -0.3; 0.3 0.3; -0.3 -0.3" dur="8s" repeatCount="indefinite"/>
+          </linearGradient>
+          <!-- 3D curvature: light from upper-left, dark falloff at edges -->
+          <radialGradient id="swiftDepth" cx="0.42" cy="0.36" r="0.78">
+            <stop offset="50%" stop-color="rgba(0,0,0,0)"/>
+            <stop offset="100%" stop-color="rgba(18,1,0,0.6)"/>
+          </radialGradient>
+          <!-- Sweeping specular reflection (liquid-metal highlight) -->
+          <linearGradient id="swiftSweep" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+            <stop offset="44%" stop-color="rgba(255,255,255,0)"/>
+            <stop offset="50%" stop-color="rgba(255,255,255,0.9)"/>
+            <stop offset="56%" stop-color="rgba(255,255,255,0)"/>
+            <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+            <animateTransform attributeName="gradientTransform" type="translate" values="-0.7 -0.7; 0.7 0.7; -0.7 -0.7" dur="8s" repeatCount="indefinite"/>
+          </linearGradient>
+          <!-- Soft drifting glint -->
+          <radialGradient id="swiftGlint" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0%" stop-color="rgba(255,255,255,0.9)"/>
+            <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+          </radialGradient>
+          <clipPath id="swiftClip">
+            <path d="M85 96.5c-11.11 6.13-26.38 6.76-41.75.47A64.53 64.53 0 0113.84 73a50 50 0 0010.85 6.32c15.87 7.1 31.73 6.61 42.9 0-15.9-11.66-29.4-26.82-39.46-39.2a43.47 43.47 0 01-5.29-6.82c12.16 10.61 31.5 24 38.38 27.79a271.77 271.77 0 01-27-32.34 266.8 266.8 0 0044.47 34.87c.71.38 1.26.7 1.7 1a32.7 32.7 0 001.21-3.51c3.71-12.89-.53-27.54-9.79-39.67C93.25 33.81 106 57.05 100.66 76.51c-.14.53-.29 1-.45 1.55l.19.22c10.59 12.63 7.68 26 6.35 23.5C101 91 90.37 94.33 85 96.5z"/>
+          </clipPath>
+        </defs>
+        <g clip-path="url(#swiftClip)">
+          <rect x="0" y="0" width="128" height="128" fill="url(#swiftGrad)"/>
+          <rect x="0" y="0" width="128" height="128" fill="url(#swiftDepth)"/>
+          <rect x="0" y="0" width="128" height="128" fill="url(#swiftSweep)"/>
+          <rect x="-30" y="-40" width="128" height="128" fill="url(#swiftGlint)">
+            <animate attributeName="x" values="-30;40;-30" dur="8s" repeatCount="indefinite"/>
+            <animate attributeName="y" values="-40;44;-40" dur="8s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+        <!-- Beveled rim: dark outer edge + warm inner highlight for 3D pop -->
+        <path d="M85 96.5c-11.11 6.13-26.38 6.76-41.75.47A64.53 64.53 0 0113.84 73a50 50 0 0010.85 6.32c15.87 7.1 31.73 6.61 42.9 0-15.9-11.66-29.4-26.82-39.46-39.2a43.47 43.47 0 01-5.29-6.82c12.16 10.61 31.5 24 38.38 27.79a271.77 271.77 0 01-27-32.34 266.8 266.8 0 0044.47 34.87c.71.38 1.26.7 1.7 1a32.7 32.7 0 001.21-3.51c3.71-12.89-.53-27.54-9.79-39.67C93.25 33.81 106 57.05 100.66 76.51c-.14.53-.29 1-.45 1.55l.19.22c10.59 12.63 7.68 26 6.35 23.5C101 91 90.37 94.33 85 96.5z" fill="none" stroke="rgba(0,0,0,0.4)" stroke-width="3"/>
+        <path d="M85 96.5c-11.11 6.13-26.38 6.76-41.75.47A64.53 64.53 0 0113.84 73a50 50 0 0010.85 6.32c15.87 7.1 31.73 6.61 42.9 0-15.9-11.66-29.4-26.82-39.46-39.2a43.47 43.47 0 01-5.29-6.82c12.16 10.61 31.5 24 38.38 27.79a271.77 271.77 0 01-27-32.34 266.8 266.8 0 0044.47 34.87c.71.38 1.26.7 1.7 1a32.7 32.7 0 001.21-3.51c3.71-12.89-.53-27.54-9.79-39.67C93.25 33.81 106 57.05 100.66 76.51c-.14.53-.29 1-.45 1.55l.19.22c10.59 12.63 7.68 26 6.35 23.5C101 91 90.37 94.33 85 96.5z" fill="none" stroke="rgba(255,225,180,0.4)" stroke-width="1"/>
+      </svg>
+      <p class="hero-eyebrow">Apple Authorized Training Center · Parul University</p>
+      <h1 class="hero-title"><span class="hero-title-inner">Swift Student Challenge 2027</span></h1>
+      <p class="hero-desc">Build something extraordinary with Swift. Apply now and represent Parul University at the global stage.</p>
+    </div>
+  </section>
+
+  <!-- Guidelines — Before You Apply -->
+  <section id="guidelinesSection" class="guidelines-section">
+    <div class="guidelines-head">
+      <p class="guidelines-kicker">Swift Student Challenge 2027</p>
+      <h2 class="guidelines-title">Before You <span class="accent">Apply</span></h2>
+      <p class="guidelines-sub">Please read the following before you register. Estimated time to read: 6–8 minutes.</p>
+    </div>
+
+    <div class="guidelines-list">
+
+      <div class="glass-card liquid-glass guideline-card">
+        <h2>What is the Swift Student Challenge?</h2>
+        <p>The Swift Student Challenge is Apple's global opportunity for students to showcase their creativity, ideas, and development skills by building an interactive app playground using Swift and Apple's development technologies.</p>
+        <p>It is more than just writing code — it is about taking an idea, experience, interest, or something meaningful to you and turning it into an interactive experience.</p>
+        <p>Through the Swift Coding Club at Parul University, we want to bring together students who are already familiar with Swift and/or the Apple development ecosystem and help them take their skills to the next level.</p>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card looking-for">
+        <h2>Who Should Apply!!</h2>
+        <p>This registration <strong>is not intended as a beginner-only</strong> coding program.</p>
+        <p>We are <strong>specifically</strong> looking for students who <strong>already have some familiarity</strong> with:</p>
+        <ul>
+          <li>Swift</li>
+          <li>SwiftUI</li>
+          <li>Xcode</li>
+          <li>Swift Playgrounds</li>
+          <li>iOS / iPadOS development</li>
+          <li>Apple frameworks and APIs</li>
+          <li>The wider Apple Developer ecosystem</li>
+        </ul>
+        <p>You don't need to be an expert. However, you should have <strong>some genuine exposure to Swift or Apple development</strong> and be interested in building something of your own.</p>
+        <p>If you have never explored Swift or Apple development before, this may not be the right registration for you.</p>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card">
+        <h2>What will the Swift Coding Club provide?</h2>
+        <ul>
+          <li>Access to available Mac / iPad lab resources for students who need them</li>
+          <li>Learning resources for Swift, SwiftUI, Xcode and Apple development</li>
+          <li>Sessions focused on app ideas, development and experimentation</li>
+          <li>Guidance while you build and improve your project</li>
+          <li>Exposure to the Apple Developer ecosystem</li>
+          <li>A community of students interested in building with Apple technologies</li>
+          <li>Support throughout the preparation journey for the Swift Student Challenge</li>
+        </ul>
+        <p>The goal is not simply to teach you how to code. The goal is to help you take what you already know and turn it into something you can actually build and be proud of.</p>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card">
+        <h2>What commitment should you expect?</h2>
+        <p>If selected, you should be prepared to consistently work on your skills and project during the preparation period.</p>
+        <p>You should be able to dedicate regular time each week, especially as we move closer to the submission period.</p>
+        <p>This is a student-led journey — your final project will require your own effort, creativity, and consistency.</p>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card">
+        <h2>Do you need a Mac or iPad?</h2>
+        <p>Regular access to a Mac or iPad is strongly recommended for Apple development.</p>
+        <p>If you do not have your own device, limited university lab access may be available through the Swift Coding Club, depending on availability and scheduling.</p>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card important">
+        <h2>Important</h2>
+        <p>Before applying, please understand:</p>
+        <ul>
+          <li>Your final Swift Student Challenge submission must be your own individual work.</li>
+          <li>You should have some existing familiarity with Swift and/or Apple's development ecosystem.</li>
+          <li>You should be willing to learn, experiment, and build independently.</li>
+          <li>Your submission should follow Apple's official eligibility and submission requirements.</li>
+          <li>Apple's official dates and requirements for the 2027 Swift Student Challenge will be followed once announced.</li>
+        </ul>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card">
+        <h2>You might be exactly who we're looking for</h2>
+        <p>If you already know some Swift, have explored Apple's ecosystem, and have an idea you would genuinely love to build — you're exactly the kind of student we're looking for.</p>
+      </div>
+
+      <div class="glass-card liquid-glass guideline-card">
+        <h2>Terms &amp; Conditions</h2>
+        <p>All submissions must comply with Apple's official Swift Student Challenge policy. Please review the official terms and conditions before applying.</p>
+        <p><a class="panel-link" href="https://developer.apple.com/swift-student-challenge/policy/" target="_blank" rel="noopener noreferrer">Read Apple's Swift Student Challenge Policy →</a></p>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Apply CTA -->
+  <section id="applyCtaSection" class="apply-cta-section">
+    <div class="apply-cta-inner" data-tilt>
+      <a id="showcaseBeginBtn" class="cta-btn liquid-glass" href="/apply.html">Apply Now</a>
+    </div>
+  </section>
+
+    <script>window.SSC_FX_PAUSED = true; /* pause heavy FX until the boot overlay finishes */</script>
+  <script src="background.js?v=11"></script>
+  <script>
+    (() => {
+      const boot = document.getElementById('boot');
+      const logo = boot?.querySelector('.boot-logo');
+      if (!boot) return;
+      let hidden = false;
+      const hide = () => {
+        if (hidden) return;
+        hidden = true;
+        boot.classList.add('hidden');
+        document.body.classList.add('boot-done');
+        window.SSC_FX_PAUSED = false; // resume WebGL FX now that boot is gone
+        setTimeout(() => boot.remove(), 850);
+      };
+      // logo entrance ends ~1.4s; hold a beat, then exit
+      if (logo) logo.addEventListener('animationend', () => setTimeout(hide, 900));
+      setTimeout(hide, 4200); // safety net
+    })();
+  </script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="config.js"></script>
+  <script defer src="app.js?v=11"></script>
+</body>
+</html>
